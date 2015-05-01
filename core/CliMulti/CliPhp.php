@@ -38,6 +38,9 @@ class CliPhp
 
         if (!$this->isValidPhpType($bin)) {
             $bin = shell_exec('which php');
+
+            echo "\n'which php' returned '$bin'\n";
+            echo "\nPATH is: '" . `echo \$PATH` . "'\n";
         }
 
         if (!$this->isValidPhpType($bin)) {
