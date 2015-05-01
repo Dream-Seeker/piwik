@@ -94,6 +94,7 @@ install:
   - git checkout master -q -- ./tests/travis ./plugins/TestRunner || true
 
 before_script:
+  - php-fpm --version
   - ./tests/travis/install_mysql_5.6.sh
 
   - phpenv config-rm xdebug.ini;
