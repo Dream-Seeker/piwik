@@ -87,7 +87,7 @@ class ScheduledTasksRunner
             $cliMulti = new CliMulti();
             $responses = $cliMulti->request(array($invokeScheduledTasksUrl));
             $resultTasks = reset($responses);
-
+echo $resultTasks."\n";
             // restore original user privilege
             Piwik::setUserHasSuperUserAccess($isSuperUser);
 
