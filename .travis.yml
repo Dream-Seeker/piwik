@@ -96,8 +96,9 @@ install:
 before_script:
   - php-fpm --version
   - /usr/bin/php -v
-  - whereis php
-  - whereis php5
+  - which php
+  - which php5
+  - echo $PATH
   - ls /etc/nginx/*
   - cat /etc/nginx/hhvm.conf
   - ./tests/travis/install_mysql_5.6.sh
