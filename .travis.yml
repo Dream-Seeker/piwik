@@ -96,8 +96,8 @@ install:
 before_script:
   - php-fpm --version
   - /usr/bin/php -v
-  - which php
-  - which php5
+  - which php || true
+  - which php5 || true
   - echo $PATH
   - ls /etc/nginx/*
   - cat /etc/nginx/hhvm.conf
