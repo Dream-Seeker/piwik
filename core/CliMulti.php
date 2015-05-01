@@ -245,7 +245,7 @@ class CliMulti {
         $query    = UrlHelper::getQueryFromUrl($url, array('pid' => $cmdId));
         $hostname = UrlHelper::getHostFromUrl($url);
         $command  = $this->buildCommand($hostname, $query, $output->getPathToFile());
-
+echo "COMMAND: $command\n";
         Log::debug($command);
         shell_exec($command);
     }
