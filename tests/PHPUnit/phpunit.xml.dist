@@ -21,8 +21,6 @@
 
 <testsuites>
     <testsuite name="SystemTests">
-        <file>./System/TimezonesTest.php</file>
-        <file>./System/TrackCustomVariablesAndCampaignsForceUsingVisitIdNotHeuristicsTest.php</file>
         <file>./System/TrackerResponseTest.php</file>
         <file>./System/TrackerTest.php</file>
     </testsuite>
