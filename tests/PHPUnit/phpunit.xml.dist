@@ -21,11 +21,6 @@
 
 <testsuites>
     <testsuite name="SystemTests">
-        <file>./System/PivotByQueryParamTest.php</file>
-        <file>./System/PrivacyManagerTest.php</file>
-        <file>./System/PurgeDataTest.php</file>
-        <file>./System/RowEvolutionTest.php</file>
-        <file>./System/SiteSearchTest.php</file>
         <file>./System/TimezonesTest.php</file>
         <file>./System/TrackCustomVariablesAndCampaignsForceUsingVisitIdNotHeuristicsTest.php</file>
         <file>./System/TrackerResponseTest.php</file>
