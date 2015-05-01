@@ -97,6 +97,7 @@ before_script:
   - php-fpm --version
   - ls /etc/nginx/*
   - cat /etc/nginx/hhvm.conf
+  - cat /etc/init.d/nginx
   - ./tests/travis/install_mysql_5.6.sh
 
   - phpenv config-rm xdebug.ini;
